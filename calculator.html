@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <h1><i>SIMPLE CALUCULATOR</i></h1>
+    <div class="container">
+    <div class="game">
+    <input id="display" readonly>
+    <br>
+    <br>
+    <button class="box" onclick="clear1()">AC</button>
+    <button class="box" onclick="appendvalue('/')">/</button>
+    <button class="box" onclick="del1()">del</button>
+    <button class="box" onclick="appendvalue('%')">%</button>
+    <button class="box" onclick="appendvalue(7)">7</button>
+    <button class="box" onclick="appendvalue(8)">8</button>
+    <button class="box" onclick="appendvalue(9)">9</button>
+    <button class="box" onclick="appendvalue('*')">*</button>
+    <button class="box" onclick="appendvalue(4)">4</button>
+    <button class="box" onclick="appendvalue(5)">5</button>
+    <button class="box" onclick="appendvalue(6)">6</button>
+    <button class="box" onclick="appendvalue('-')">-</button>
+    <button class="box" onclick="appendvalue(1)">1</button>
+    <button class="box" onclick="appendvalue(2)">2</button>
+    <button class="box" onclick="appendvalue(3)">3</button>
+    <button class="box" onclick="appendvalue('+')">+</button>
+    <button class="box" onclick="appendvalue('00')">00</button>
+    <button class="box" onclick="appendvalue(0)">0</button>
+    <button class="box" onclick="appendvalue('.')">.</button>
+    <button class="box" onclick="result()">=</button>
+    </div>
+    </div>
+<script src="calculator.js"></script>
+</body>
+</html>
